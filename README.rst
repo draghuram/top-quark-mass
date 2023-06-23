@@ -2,11 +2,6 @@
 Top quark mass
 ==============
 
-Installation
-============
-
-- Create a python virtual environment
-
 Overview
 ========
 
@@ -138,11 +133,6 @@ The histogram should look similar to the one `here
 <https://github.com/andriiknu/RDF/blob/master/images/analysis.png>`_. Note that this plot has histograms for five
 different channels but we only have one. Ours should be comparable to "ttbar" histogram (in yellow).
 
-Future Enhancements
-===================
-
-- Process multiple files.
-
 Implementation
 ==============
 
@@ -162,5 +152,10 @@ https://opendata.cern.ch/record/19980. The script can then be run as follows::
 It should take only few seconds and display a histogram.
 
 Note that the scripts in "poc" directory contain a different implementation of the same task. Some of them do not
-use Awkward Arrays and were done to undestand the task better before proceeding with a more efficient implementation.
+use Awkward Arrays and were done to understand the task better before proceeding with a more efficient implementation.
+
+Future Enhancements
+===================
+
+- Process multiple files.
 
